@@ -2,19 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=PT+Sans+Narrow&display=swap');
 
-
-nav {
+/* nav {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 17px;
-}
-
-
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 .logo {
     font-family: 'Dancing Script', cursive;
 }
+
+@layer utilities {
+    .section-min-height {
+      min-height: calc(100vh - 68px)
+    }
+  
+    .toggle-btn {
+      @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
+    }
+  }
