@@ -9,8 +9,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App bg-[#1a1a1a] w-full h-screen">
-    {/* <div className="max-w-4xl mx-auto"> */}
+    // <div className="App bg-[#1a1a1a] w-full h-screen">
+    <div className="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />

@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className='bg-teal-700 text-white sticky top-0 z-10'> 
       <nav className='max-w-4xl mx-auto p-4 flex justify-between items-center'>
-        <h1 className='text-5xl logo'>Great Burritos</h1>
+        <h1 className='text-5xl logo'><a href="#hero">🌯 Great Burritos</a></h1>
         <ul className='hidden  md:flex gap-6'>
           <Link to='/'><li>Home</li></Link>
           <Link to='/ourburritos'><li>OurBurritos</li></Link>
