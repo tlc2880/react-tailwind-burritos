@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    // <div className="App bg-[#1a1a1a] w-full h-screen">
+    // <div className="App bg-[#1a1a1a]">
     <div className="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
       <Navbar />
       <Routes>
